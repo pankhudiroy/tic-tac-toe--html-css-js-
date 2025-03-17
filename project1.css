@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #a8dadc;
+    /* background-image: url("image.png");
+    opacity: 0.3; */
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 60vh;
+    width: 60vh;
+    margin-top: 2rem;
+    /* margin-left: 2rem; */
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #fefae0;
+    margin: 3px;
+    margin-right: 4px;
+    margin-bottom: 1px;
+    border-radius: 1.3rem;
+    color: #c1121f;
+    font-size: 4rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3 );
+}
+
+h1{
+    margin-top: 3.8rem;
+    font-size: 3rem;
+}
+
+#turn{
+    margin-top: 7px;
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-size: 1.6rem;
+    color: rgb(87, 85, 85);
+}
+
+.reset{
+    height:3rem ;
+    width:6rem ;
+    border-radius: 0.8rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    background-color: rgb(87, 85, 85);
+    color: white;
+}
+
+#newBtn{
+    height:3rem ;
+    width:6rem ;
+    border-radius: 0.8rem;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    background-color: rgb(87, 85, 85);
+    color: white;
+    margin-bottom: 3vmin;
+}
+
+.winBox{
+    /* visibility: hidden; */
+    font-size: 7vmin;
+    color:black;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hide, .hide1, .hide2{
+    display: none;
+} 
+
+@media(max-width: 576px){
+    .container{
+        height: 50vh;
+        width: 50vh;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .box{
+        margin-bottom: 6px;
+        font-size: 36px;
+     }
+
+    .winBox{
+        margin-top: 19px;
+    }
+
+    #newBtn{
+        margin-bottom: 20px;
+    }
+}
+
+
+@media(max-width: 474px){
+    .container{
+        height: 70%;
+        width: 70%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    .box{
+        border-radius: 0.8rem;
+    }
+  
+    #winMsg{
+          font-size: 35px;
+    }
+
+    #winbox h1{
+        margin-top: 50px;
+    }
+}
+
+
