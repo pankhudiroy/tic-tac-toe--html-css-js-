@@ -86,7 +86,15 @@ h1{
     flex-direction: column;
 }
 
-.hide, .hide1, .hide2{
+.hide{
+    display: none;
+} 
+
+.hide1{
+    display: none;
+} 
+
+.hide2{
     display: none;
 } 
 
